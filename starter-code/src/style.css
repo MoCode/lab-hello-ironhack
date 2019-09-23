@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2534;
+  padding: 1rem 1rem;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: wait;
+}
+
+/* =============== Intro Section ============== */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  height: 40vh;
+  color: #fff;
+  background: #1f2534;
+}
+
+.intro h1 {
+  font-size: 5rem;
+}
+
+.intro p {
+  max-width: 300px;
+}
+
+.intro a {
+  background: #fff;
+  color: #1f2534;
+  width: 5rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  margin-top: 25px;
+  border-radius: 8px;
+}
+
+/* =============== Testimonial Section ============== */
+
+.testimonials {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.testimonials .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.testimonials .card h3 {
+  padding-bottom: 1rem;
+}
+
+.testimonials .card img {
+  align-self: center;
+}
+
+.testimonials p {
+  padding: 0 1rem;
+}
